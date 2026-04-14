@@ -1,7 +1,7 @@
 
 import React, { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
-import { View } from '../App';
+import { View } from '@/App';
 
 interface HeroProps {
   setView: (view: View) => void;

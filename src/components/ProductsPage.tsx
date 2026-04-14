@@ -1,7 +1,7 @@
 
 import React, { useEffect, useState } from 'react';
 import { gsap } from 'gsap';
-import { PRODUCTS } from '../constants';
+import { PRODUCTS } from '@/constants';
 
 const ProductsPage: React.FC = () => {
   const [filter, setFilter] = useState('Todos');

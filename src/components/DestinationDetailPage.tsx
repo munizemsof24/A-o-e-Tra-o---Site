@@ -1,7 +1,7 @@
 
 import React, { useEffect } from 'react';
 import { gsap } from 'gsap';
-import { DESTINATIONS, PARTNERS } from '../constants';
+import { DESTINATIONS, PARTNERS } from '@/constants';
 
 interface DestinationDetailPageProps {
   destinationId: string;

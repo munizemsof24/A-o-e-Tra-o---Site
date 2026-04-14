@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { CALENDAR } from '../constants';
+import { CALENDAR } from '@/constants';
 
 const CalendarSection: React.FC = () => {
   return (

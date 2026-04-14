@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { gsap } from 'gsap';
-import { TESTIMONIALS } from '../constants';
+import { TESTIMONIALS } from '@/constants';
 
 const Testimonials: React.FC = () => {
   const [activeVideo, setActiveVideo] = useState<string | null>(null);

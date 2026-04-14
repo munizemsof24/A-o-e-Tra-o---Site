@@ -1,7 +1,7 @@
 
 import React, { useEffect, useState } from 'react';
 import { gsap } from 'gsap';
-import { DESTINATIONS } from '../constants';
+import { DESTINATIONS } from '@/constants';
 
 interface DestinationsPageProps {
   onSelect: (id: string) => void;

@@ -2,22 +2,22 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import Header from './components/Header';
-import Hero from './components/Hero';
-import AuthorityBar from './components/AuthorityBar';
-import BentoDifferentials from './components/BentoDifferentials';
-import Destinations from './components/Destinations';
-import BeginnerCourse from './components/BeginnerCourse';
-import CalendarSection from './components/CalendarSection';
-import Testimonials from './components/Testimonials';
-import ShopSection from './components/ShopSection';
-import FAQSection from './components/FAQSection';
-import Footer from './components/Footer';
-import CoursePage from './components/CoursePage';
-import DestinationsPage from './components/DestinationsPage';
-import DestinationDetailPage from './components/DestinationDetailPage';
-import ProductsPage from './components/ProductsPage';
-import AboutPage from './components/AboutPage';
+import Header from '@/components/Header';
+import Hero from '@/components/Hero';
+import AuthorityBar from '@/components/AuthorityBar';
+import BentoDifferentials from '@/components/BentoDifferentials';
+import Destinations from '@/components/Destinations';
+import BeginnerCourse from '@/components/BeginnerCourse';
+import CalendarSection from '@/components/CalendarSection';
+import Testimonials from '@/components/Testimonials';
+import ShopSection from '@/components/ShopSection';
+import FAQSection from '@/components/FAQSection';
+import Footer from '@/components/Footer';
+import CoursePage from '@/components/CoursePage';
+import DestinationsPage from '@/components/DestinationsPage';
+import DestinationDetailPage from '@/components/DestinationDetailPage';
+import ProductsPage from '@/components/ProductsPage';
+import AboutPage from '@/components/AboutPage';
 
 // Register GSAP ScrollTrigger plugin
 gsap.registerPlugin(ScrollTrigger);

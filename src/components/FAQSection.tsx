@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { FAQ } from '../constants';
+import { FAQ } from '@/constants';
 
 const FAQSection: React.FC = () => {
   const [openIndex, setOpenIndex] = useState<number | null>(0);

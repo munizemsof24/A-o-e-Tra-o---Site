@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { View } from '../App';
+import { View } from '@/App';
 
 interface FooterProps {
   setView: (view: View) => void;

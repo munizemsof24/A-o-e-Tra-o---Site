@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
-import { View } from '../App';
+import { View } from '@/App';
 
 interface HeaderProps {
   setView: (view: View) => void;

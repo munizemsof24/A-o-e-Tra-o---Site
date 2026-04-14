@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { DESTINATIONS } from '../constants';
+import { DESTINATIONS } from '@/constants';
 
 interface DestinationsProps {
   onExplore: () => void;
