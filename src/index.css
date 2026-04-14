@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@theme {
+  --color-dark: #050505;
+  --color-dark-lighter: #0a0a0a;
+  --color-accent: #991b1b;
+  --color-accent-dark: #7f1d1d;
+  
+  --font-display: "Syne", sans-serif;
+  --font-sans: "Plus Jakarta Sans", sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-dark text-white overflow-x-hidden;
+  }
+}
+
+.glass {
+  @apply bg-white/5 backdrop-blur-xl border border-white/5;
+}
+
+.bento-card {
+  @apply transition-transform duration-300 ease-[cubic-bezier(0.34,1.56,0.64,1)] hover:-translate-y-2;
+}
+
+.text-gradient {
+  @apply bg-gradient-to-r from-white to-accent bg-clip-text text-transparent;
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.marquee-content {
+  @apply flex w-fit animate-[marquee_30s_linear_infinite];
+}
