@@ -80,7 +80,7 @@ const Hero: React.FC<HeroProps> = ({ setView }) => {
             key={src}
             src={src} 
             alt="Expedição Ação e Tração 4x4 background frame" 
-            className={`absolute inset-0 z-10 w-full h-full object-cover object-center scale-105 transition-opacity duration-150 ease-linear ${
+            className={`absolute inset-0 z-10 w-full h-full object-cover object-center scale-105 ${
               idx === currentFrame ? 'opacity-100' : 'opacity-0'
             }`}
           />
