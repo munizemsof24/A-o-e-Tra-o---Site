@@ -1,13 +1,43 @@
 
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { gsap } from 'gsap';
 import { View } from '@/App';
+
+const backgroundImages = [
+  "https://i.ibb.co/GS2CLh6/ezgif-frame-001.jpg",
+  "https://i.ibb.co/PRfBKd3/ezgif-frame-002.jpg",
+  "https://i.ibb.co/G4LxDT4S/ezgif-frame-003.jpg",
+  "https://i.ibb.co/nqbrvF4c/ezgif-frame-004.jpg",
+  "https://i.ibb.co/4n4mym1m/ezgif-frame-005.jpg",
+  "https://i.ibb.co/Nn9YMSdF/ezgif-frame-006.jpg",
+  "https://i.ibb.co/k2nLc6ZF/ezgif-frame-007.jpg",
+  "https://i.ibb.co/tPqtwnbw/ezgif-frame-008.jpg",
+  "https://i.ibb.co/39Fw8CL2/ezgif-frame-009.jpg",
+  "https://i.ibb.co/TxmPcSwP/ezgif-frame-010.jpg",
+  "https://i.ibb.co/SwJwBvKp/ezgif-frame-011.jpg",
+  "https://i.ibb.co/tMtWz16M/ezgif-frame-012.jpg",
+  "https://i.ibb.co/TDcxZRZc/ezgif-frame-013.jpg",
+  "https://i.ibb.co/DfxsDPfn/ezgif-frame-014.jpg",
+  "https://i.ibb.co/v6HYKCGF/ezgif-frame-015.jpg",
+  "https://i.ibb.co/9k0k9PbZ/ezgif-frame-016.jpg",
+  "https://i.ibb.co/chqTXYnp/ezgif-frame-017.jpg",
+  "https://i.ibb.co/tTqCMtdt/ezgif-frame-018.jpg",
+  "https://i.ibb.co/gbvx2Ng4/ezgif-frame-019.jpg",
+  "https://i.ibb.co/GfBnxHJ1/ezgif-frame-020.jpg",
+  "https://i.ibb.co/Fk9bMYwT/ezgif-frame-021.jpg",
+  "https://i.ibb.co/yFftLpgD/ezgif-frame-022.jpg",
+  "https://i.ibb.co/1G1z8xTs/ezgif-frame-023.jpg",
+  "https://i.ibb.co/23w3JkXk/ezgif-frame-024.jpg",
+  "https://i.ibb.co/gMY9wSQT/ezgif-frame-025.jpg"
+];
 
 interface HeroProps {
   setView: (view: View) => void;
 }
 
 const Hero: React.FC<HeroProps> = ({ setView }) => {
+  const [currentFrame, setCurrentFrame] = useState(0);
+
   const titleRef = useRef<HTMLHeadingElement>(null);
   const subtitleRef = useRef<HTMLParagraphElement>(null);
   const ctaRef = useRef<HTMLDivElement>(null);
@@ -29,18 +59,32 @@ const Hero: React.FC<HeroProps> = ({ setView }) => {
       '-=0.3'
     );
 
-    return () => { tl.kill(); };
+    let frame = 0;
+    const interval = setInterval(() => {
+      frame = (frame + 1) % backgroundImages.length;
+      setCurrentFrame(frame);
+    }, 120);
+
+    return () => { 
+      tl.kill(); 
+      clearInterval(interval);
+    };
   }, []);
 
   return (
     <section className="relative min-h-screen flex items-center pt-20 overflow-hidden">
-      <div className="absolute inset-0 z-0">
-        <div className="absolute inset-0 bg-gradient-to-b from-dark/70 via-dark/40 to-dark z-10" />
-        <img 
-          src="https://res.cloudinary.com/dnr6vszvt/image/upload/v1740058253/WhatsApp_Image_2025-02-17_at_16.09.28_sh06s2.jpg" 
-          alt="Expedição Ação e Tração 4x4" 
-          className="w-full h-full object-cover object-center scale-105"
-        />
+      <div className="absolute inset-0 z-0 bg-dark">
+        <div className="absolute inset-0 bg-gradient-to-b from-dark/70 via-dark/40 to-dark z-20" />
+        {backgroundImages.map((src, idx) => (
+          <img 
+            key={src}
+            src={src} 
+            alt="Expedição Ação e Tração 4x4 background frame" 
+            className={`absolute inset-0 z-10 w-full h-full object-cover object-center scale-105 transition-opacity duration-150 ease-linear ${
+              idx === currentFrame ? 'opacity-100' : 'opacity-0'
+            }`}
+          />
+        ))}
       </div>
 
       <div className="relative z-20 max-w-7xl mx-auto px-6 w-full">
