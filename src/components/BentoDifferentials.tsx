@@ -6,7 +6,7 @@ const BentoDifferentials: React.FC = () => {
       {/* Large Card */}
       <div className="md:col-span-2 md:row-span-2 relative group overflow-hidden rounded-3xl glass p-8 min-h-[400px]">
         <img 
-          src="https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&q=80&w=1200" 
+          src="https://i.ibb.co/hRQX267q/DJI-20250726092836-0063-D.jpg" 
           alt="Family Off-road" 
           className="absolute inset-0 w-full h-full object-cover opacity-30 group-hover:scale-105 transition-transform duration-700"
         />

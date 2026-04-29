@@ -6,7 +6,7 @@ export const DESTINATIONS: Destination[] = [
     id: "sao-pedro",
     city: "São Pedro - SP", 
     description: "Famosa Serra do Itaqueri com trilhas técnicas e vistas de tirar o fôlego.", 
-    image: "https://images.unsplash.com/photo-1533558701576-23c65e0272fb?auto=format&fit=crop&q=80&w=1200",
+    image: "https://i.ibb.co/ShvkHDK/DJI-20250726171110-0555-D.jpg",
     videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
     itinerary: [
       { day: "Dia 1", title: "Subida da Serra", desc: "Abordagem técnica da face sul com obstáculos de erosão e pedras soltas." },
@@ -31,7 +31,7 @@ export const DESTINATIONS: Destination[] = [
     id: "analandia",
     city: "Analândia - SP", 
     description: "Cuscuzeiro e Morro do Camelo em paisagens únicas do interior paulista.", 
-    image: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=1200",
+    image: "https://i.ibb.co/C31HHgWS/DJI-20250830173929-0368-D.jpg",
     videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
     itinerary: [
       { day: "Dia 1", title: "Circuito das Areias", desc: "Navegação em trechos arenosos ao redor do Morro do Cuscuzeiro." },
@@ -52,7 +52,7 @@ export const DESTINATIONS: Destination[] = [
     id: "jaguariaiva",
     city: "Jaguariaíva - PR", 
     description: "Canyons, cachoeiras e lagos deslumbrantes no oitavo maior canyon do mundo.", 
-    image: "https://images.unsplash.com/photo-1433086466336-76c061706a1d?auto=format&fit=crop&q=80&w=1200",
+    image: "https://i.ibb.co/0jQk3kRP/DJI-20250208143739-0289-D.jpg",
     itinerary: [
       { day: "Dia 1", title: "Entrada no Canyon", desc: "Navegação pelo leito de rios e acesso às fendas monumentais." },
       { day: "Dia 2", title: "Parque Estadual", desc: "Trilhas por dentro da mata preservada com paradas em quedas d'água." }
@@ -182,15 +182,15 @@ export const CALENDAR: CalendarEvent[] = [
   {
     month: "Maio",
     events: [
-      { location: "Jaguariaíva", dates: "01, 02, 03" },
-      { location: "Analândia", dates: "23 e 24" }
+      { location: "Serra da Canastra", dates: "Dias 01, 02, 03" },
+      { location: "Analândia", dates: "Dias 23 e 24" }
     ]
   },
   {
     month: "Junho",
     events: [
-      { location: "São Pedro", dates: "06 e 07" },
-      { location: "Curso Iniciantes 4x4", dates: "20 (Sábado)" }
+      { location: "São Pedro", dates: "Dias 06 e 07" },
+      { location: "Curso Iniciantes 4x4", dates: "Dia 20 (Sábado)" }
     ]
   }
 ];

@@ -54,7 +54,7 @@ const BeginnerCourse: React.FC<BeginnerCourseProps> = ({ onMoreInfo }) => {
         
         <div className="lg:w-1/2 w-full h-full relative min-h-[400px]">
           <img 
-            src="https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?auto=format&fit=crop&q=80&w=1200" 
+            src="https://i.ibb.co/fVQStWdq/Imagem-do-Whats-App-de-2025-05-18-s-20-08-45-ad744863.jpg" 
             alt="Off-road Training" 
             className="absolute inset-0 w-full h-full object-cover grayscale opacity-60 hover:grayscale-0 transition-all duration-1000"
           />
