@@ -9,17 +9,17 @@ const Testimonials: React.FC = () => {
   const videoData = [
     {
       id: "intl-2025",
-      title: "Expedição Internacional 2025",
-      subtitle: "Destaques e Aventuras nos Andes",
-      thumbnail: "https://images.unsplash.com/photo-1544627710-7f294df62602?auto=format&fit=crop&q=80&w=1200",
-      videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ" // Exemplo: Substituir pelo ID real do canal
+      title: "Expedição em Analândia-SP",
+      subtitle: "Destaques e aventura no interior de São Paulo",
+      thumbnail: "https://img.youtube.com/vi/-eKKNM38WYY/maxresdefault.jpg",
+      videoUrl: "https://www.youtube.com/embed/-eKKNM38WYY"
     },
     {
       id: "depoimento-geral",
-      title: "Relatos da Estrada",
+      title: "Passeio 4x4 Jaguariaíva-PR",
       subtitle: "A experiência vista por nossos clientes",
-      thumbnail: "https://images.unsplash.com/photo-1594911771143-6c7c093a1290?auto=format&fit=crop&q=80&w=1200",
-      videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ" // Exemplo
+      thumbnail: "https://img.youtube.com/vi/5d654n9Bn2M/maxresdefault.jpg",
+      videoUrl: "https://www.youtube.com/embed/5d654n9Bn2M"
     }
   ];
 
