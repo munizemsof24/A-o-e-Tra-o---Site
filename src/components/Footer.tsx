@@ -7,7 +7,7 @@ interface FooterProps {
 }
 
 const Footer: React.FC<FooterProps> = ({ setView }) => {
-  const logoUrl = "https://res.cloudinary.com/dnr6vszvt/image/upload/v1740058564/logo-acao-etracao_oym8zv.png";
+  const logoUrl = "https://i.ibb.co/0pdH9fcW/logotipoacaoetracao.png";
 
   return (
     <footer className="bg-dark pt-24 pb-12 px-6 border-t border-white/5">

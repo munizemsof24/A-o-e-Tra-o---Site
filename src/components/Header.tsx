@@ -16,7 +16,7 @@ const Header: React.FC<HeaderProps> = ({ setView, currentView }) => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const logoUrl = "https://res.cloudinary.com/dnr6vszvt/image/upload/v1740058564/logo-acao-etracao_oym8zv.png";
+  const logoUrl = "https://i.ibb.co/0pdH9fcW/logotipoacaoetracao.png";
 
   return (
     <header className={`fixed top-0 left-0 w-full z-50 transition-all duration-500 ${isScrolled || currentView !== 'home' ? 'py-2 glass shadow-2xl shadow-black/50' : 'py-4 bg-transparent'}`}>
