@@ -37,8 +37,8 @@ const AboutPage: React.FC = () => {
              />
              <div className="absolute inset-0 bg-gradient-to-t from-dark via-transparent to-transparent opacity-60" />
              <div className="absolute bottom-10 left-10">
-                <h4 className="font-display text-3xl font-bold">Wanderley</h4>
-                <p className="text-accent font-bold uppercase tracking-widest text-xs">Fundador & Explorador Líder</p>
+                <h4 className="font-display text-3xl font-bold">Rodrigo Salvato</h4>
+                <p className="text-accent font-bold uppercase tracking-widest text-xs">Fundador</p>
              </div>
           </div>
           <div>
@@ -51,6 +51,27 @@ const AboutPage: React.FC = () => {
                 As expedições são planejadas para oferecer segurança e diversão, com foco na preservação ambiental e cultural. Com trilhas em áreas exclusivas, belas paisagens e desbravamento de caminhos pouco explorados, é perfeito para criar memórias duradouras, cultivando a cultura off-road.
               </p>
             </div>
+          </div>
+        </div>
+
+        {/* Founder Bio section */}
+        <div className="mb-32 about-reveal bg-darkLighter/50 p-10 md:p-16 rounded-[40px] border border-white/5 backdrop-blur-sm">
+          <h2 className="font-display text-4xl md:text-5xl font-bold mb-8"><span className="text-accent">Sobre o</span> fundador</h2>
+          <div className="text-gray-300 text-lg leading-relaxed space-y-6">
+            <p className="text-xl text-white">
+              <strong>Rodrigo Salvato</strong> é empresário e Jipeiro raiz, com diversas expedições pelo Brasil e mundo. Com experiência nas expedições:
+            </p>
+            <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-4 pt-4 ml-6 list-disc marker:text-accent">
+              <li>BR319 - Rodovia Fantasma</li>
+              <li>BR230 - Transamazônica</li>
+              <li>BR163 - Transgarimpeira</li>
+              <li>Serras Catarinense</li>
+              <li>Caminho da Fé</li>
+              <li>Estrada Real</li>
+              <li>Trilhas da Mata Atlântica</li>
+              <li>Expedição Buraco do Camel</li>
+              <li>Expedições internacionais Chile, Argentina e Panamá.</li>
+            </ul>
           </div>
         </div>
 
