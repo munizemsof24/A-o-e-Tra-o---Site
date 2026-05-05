@@ -87,7 +87,7 @@ const Hero: React.FC<HeroProps> = ({ setView }) => {
         ))}
       </div>
 
-      <div className="relative z-20 max-w-7xl mx-auto px-6 w-full">
+      <div className="relative z-30 max-w-7xl mx-auto px-6 w-full">
         <div className="max-w-3xl">
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass mb-8 border border-white/10">
             <span className="w-2 h-2 rounded-full bg-accent animate-ping" />
@@ -120,7 +120,7 @@ const Hero: React.FC<HeroProps> = ({ setView }) => {
         </div>
       </div>
       
-      <div className="absolute bottom-10 left-1/2 -translate-x-1/2 z-20 animate-bounce">
+      <div className="absolute bottom-10 left-1/2 -translate-x-1/2 z-30 animate-bounce">
         <svg className="w-6 h-6 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
         </svg>
