@@ -131,10 +131,10 @@ export const DESTINATIONS: Destination[] = [
 ];
 
 export const PRODUCTS: Product[] = [
-  { id: "1", name: "Camiseta Oficial 2026", price: "R$ 129,00", image: "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&q=80&w=400", category: "Vestuário", link: "https://wa.me/5519971475706" },
-  { id: "2", name: "Boné Ação e Tração", price: "R$ 89,00", image: "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?auto=format&fit=crop&q=80&w=400", category: "Acessórios", link: "https://wa.me/5519971475706" },
-  { id: "3", name: "Capa de Estepe Premium", price: "R$ 249,00", image: "https://images.unsplash.com/photo-1583121274602-3e2820c69888?auto=format&fit=crop&q=80&w=400", category: "Equipamentos", link: "https://wa.me/5519971475706" },
-  { id: "4", name: "Cinta de Reboque 10T", price: "R$ 189,00", image: "https://images.unsplash.com/photo-1580273916550-e323be2ae537?auto=format&fit=crop&q=80&w=400", category: "Segurança", link: "https://wa.me/5519971475706" },
+  { id: "1", name: "Camiseta Oficial 2026", price: "R$ 129,00", image: "https://i.ibb.co/24fcfZp/Gemini-Generated-Image-6k5vmf6k5vmf6k5v.png", category: "Vestuário", link: "https://wa.me/5519971475706" },
+  { id: "2", name: "Boné Ação e Tração", price: "R$ 89,00", image: "https://i.ibb.co/BV8fxv8m/Gemini-Generated-Image-yal8vkyal8vkyal8.png", category: "Acessórios", link: "https://wa.me/5519971475706" },
+  { id: "3", name: "Nécessaire", price: "R$ 249,00", image: "https://i.ibb.co/jkW7ZSpD/Gemini-Generated-Image-sg7zjwsg7zjwsg7z.png", category: "Equipamentos", link: "https://wa.me/5519971475706" },
+  { id: "4", name: "Bandana Ação e Tração", price: "R$ 189,00", image: "https://i.ibb.co/cXks70BD/Gemini-Generated-Image-y9hjk8y9hjk8y9hj.png", category: "Segurança", link: "https://wa.me/5519971475706" },
 ];
 
 export const PARTNER_DETAILS: PartnerDetail[] = [
@@ -196,9 +196,9 @@ export const CALENDAR: CalendarEvent[] = [
 ];
 
 export const TESTIMONIALS: Testimonial[] = [
-  { name: "Ricardo Silva", role: "Proprietário Hilux", text: "Experiência sensacional! O cuidado com a família e a segurança no comboio são impecáveis.", avatar: "https://i.pravatar.cc/150?u=ricardo" },
-  { name: "Mariana Costa", role: "Aventureira Jeep", text: "Mesmo com carro original, consegui aproveitar tudo. As paisagens da Serra da Canastra são inesquecíveis.", avatar: "https://i.pravatar.cc/150?u=mariana" },
-  { name: "Fernando Souza", role: "Pai e Off-roader", text: "O melhor de tudo é o ambiente familiar. Meus filhos adoraram o contato com a natureza.", avatar: "https://i.pravatar.cc/150?u=fernando" },
+  { name: "Débora e João Pedro", role: "Fartura-SP", text: "Participar da expedição em Jaguariaíva-PR foi uma experiência incrível, com trilhas bem planejadas, paisagens espetaculares e um ambiente familiar que faz toda a diferença. Com certeza recomendamos a Ação e Tração para quem quer viver o off-road de verdade com organização e qualidade.", avatar: "https://i.ibb.co/sJbSb5Qd/d1.png" },
+  { name: "Giovanna Landgraf", role: "Pirassununga-SP", text: "Participar da expedição em Itapira-SP pela Rota 32 foi uma experiência incrível, com trilhas bem organizadas, paisagens lindas e aquele clima de parceria do começo ao fim. Foi um passeio leve, seguro e ao mesmo tempo cheio de aventura. Com certeza recomendo a Ação e Tração para quem quer viver o off-road de verdade.", avatar: "https://i.ibb.co/jkCH11pJ/d2.png" },
+  { name: "Rafael e Flávia", role: "Taboão da Serra-SP", text: "Participar da expedição em São Pedro-SP foi nossa primeira experiência em trilha, e foi incrível! Tudo muito bem organizado, ambiente super acolhedor e uma aventura que superou nossas expectativas. Agora estamos amando o off-road — com certeza vem muito mais por aí!", avatar: "https://i.ibb.co/bgyD2Vct/d3.png" },
 ];
 
 export const FAQ: FAQItem[] = [
@@ -209,5 +209,8 @@ export const FAQ: FAQItem[] = [
 ];
 
 export const PARTNERS = [
-  "BFGoodrich", "Old Man Emu", "WARN", "ARB 4x4", "Ironman 4x4", "Troller", "Toyota Gazoo Racing"
+  "BYD SHARK", "RECANTO DAS SERIEMAS", "MORADA DA SERRA", "ACERO BOTAS", 
+  "JR AMORTECEDORES", "CACHOEIRA BAR DO VALENTIM", "BAR MORRO DO FOÇÃO", 
+  "ESTAÇÃO DA CACHAÇA SÃO PEDRO", "SERRA DO ITAQUERI", "SÍTIO COLONINHA", 
+  "QUEIJO VALE DA GURITA", "POUSADA LAGO AZUL"
 ];
