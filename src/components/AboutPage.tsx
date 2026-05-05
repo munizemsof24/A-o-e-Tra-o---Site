@@ -42,16 +42,13 @@ const AboutPage: React.FC = () => {
              </div>
           </div>
           <div>
-            <h2 className="font-display text-4xl md:text-5xl font-bold mb-8">A Visão do <span className="text-accent">Fundador</span></h2>
+            <h2 className="font-display text-4xl md:text-5xl font-bold mb-8"><span className="text-accent">Sobre a</span> Ação e Tração</h2>
             <div className="space-y-6 text-gray-300 text-lg leading-relaxed">
               <p>
-                "Sempre acreditei que o 4x4 é a ferramenta definitiva de liberdade. Mas essa liberdade só é plena quando compartilhada com segurança e respeito à natureza."
+                O principal objetivo das expedições é proporcionar uma experiência única em trilhas off-road, promovendo aventura, contato com a natureza e valorização dos patrimônios culturais e históricos das regiões.
               </p>
               <p>
-                Com mais de 15 anos de experiência em trilhas pelo Brasil e América do Sul, Wanderley fundou a Ação e Tração para transformar o passeio off-road tradicional em uma experiência de imersão completa.
-              </p>
-              <p>
-                Seu foco sempre foi a inclusão: mostrar que qualquer pessoa, com qualquer veículo 4x4 original, pode viver momentos extraordinários ao lado de sua família, desde que bem guiado e instruído.
+                As expedições são planejadas para oferecer segurança e diversão, com foco na preservação ambiental e cultural. Com trilhas em áreas exclusivas, belas paisagens e desbravamento de caminhos pouco explorados, é perfeito para criar memórias duradouras, cultivando a cultura off-road.
               </p>
             </div>
           </div>
