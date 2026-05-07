@@ -74,7 +74,7 @@ export const DESTINATIONS: Destination[] = [
     id: "canastra",
     city: "Serra da Canastra - MG", 
     description: "Berço do Rio São Francisco e queijos premiados em Minas Gerais.", 
-    image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&q=80&w=1200",
+    image: "https://i.ibb.co/CsS9LNpS/IMG-7811.jpg",
     itinerary: [
       { day: "Dia 1", title: "Casca d'Anta", desc: "Visita à queda monumental e trilha do parque nacional." },
       { day: "Dia 2", title: "Rota dos Queijos", desc: "Off-road leve visitando produtores artesanais e a parte alta da serra." }
