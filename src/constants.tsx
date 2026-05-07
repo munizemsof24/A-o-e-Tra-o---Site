@@ -7,7 +7,7 @@ export const DESTINATIONS: Destination[] = [
     city: "São Pedro - SP", 
     description: "Famosa Serra do Itaqueri com trilhas técnicas e vistas de tirar o fôlego.", 
     image: "https://i.ibb.co/ShvkHDK/DJI-20250726171110-0555-D.jpg",
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    videoUrl: "https://www.youtube.com/embed/OYUYbBe9ngI",
     itinerary: [
       { day: "Dia 1", title: "Subida da Serra", desc: "Abordagem técnica da face sul com obstáculos de erosão e pedras soltas." },
       { day: "Dia 2", title: "Cachoeiras e Mirantes", desc: "Exploração do platô superior visitando os principais pontos panorâmicos." }
@@ -23,8 +23,10 @@ export const DESTINATIONS: Destination[] = [
       "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&q=80&w=400"
     ],
     shorts: [
-      { id: "dQw4w9WgXcQ", title: "Lama em SP" },
-      { id: "dQw4w9WgXcQ", title: "Visual Incrível" }
+      { id: "YEieWOxCj1c", title: "Ação 1" },
+      { id: "gLSwbZve5DM", title: "Ação 2" },
+      { id: "VPl9jfXDOPU", title: "Ação 3" },
+      { id: "yfmzrIGLbvk", title: "Ação 4" }
     ]
   },
   { 
@@ -32,7 +34,7 @@ export const DESTINATIONS: Destination[] = [
     city: "Analândia - SP", 
     description: "Cuscuzeiro e Morro do Camelo em paisagens únicas do interior paulista.", 
     image: "https://i.ibb.co/C31HHgWS/DJI-20250830173929-0368-D.jpg",
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    videoUrl: "https://www.youtube.com/embed/OYUYbBe9ngI",
     itinerary: [
       { day: "Dia 1", title: "Circuito das Areias", desc: "Navegação em trechos arenosos ao redor do Morro do Cuscuzeiro." },
       { day: "Dia 2", title: "Trilha do Camelo", desc: "Acesso a áreas exclusivas de fazendas com visual para o Morro do Camelo." }
@@ -113,19 +115,24 @@ export const DESTINATIONS: Destination[] = [
     city: "Caminho da Fé", 
     description: "Conexão espiritual e trilhas de tirar o fôlego pela Serra da Mantiqueira.", 
     image: "https://i.ibb.co/SDqcr9r2/IMG-8376.avif",
+    videoUrl: "https://www.youtube.com/embed/OYUYbBe9ngI",
     itinerary: [
       { day: "Dia 1", title: "Luminosa", desc: "O trecho mais temido e belo com subidas íngremes em solo instável." },
       { day: "Dia 2", title: "Chegada em Aparecida", desc: "Descida da serra e entrada triunfal na basílica pelo caminho histórico." }
     ],
     gallery: [
-      "https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&q=80&w=400",
-      "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&q=80&w=400",
-      "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=400",
-      "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&q=80&w=400",
-      "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&q=80&w=400",
-      "https://images.unsplash.com/photo-1472396961695-1ad22a07c33c?auto=format&fit=crop&q=80&w=400",
-      "https://images.unsplash.com/photo-1518495973542-4542c06a5843?auto=format&fit=crop&get=crop&q=80&w=400",
-      "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&q=80&w=400"
+      "https://i.ibb.co/0y8G0Hb8/IMG-20250518-WA0031.jpg",
+      "https://i.ibb.co/7JqV3SGj/IMG-6417.jpg",
+      "https://i.ibb.co/p6Y58LxQ/IMG-6427.jpg",
+      "https://i.ibb.co/67d9Q27J/IMG-6082.jpg",
+      "https://i.ibb.co/ch2BkqXt/IMG-20250519-WA0045.jpg",
+      "https://i.ibb.co/JWHFgvRj/Imagem-do-Whats-App-de-2025-05-18-s-20-09-06-41a21302.jpg",
+      "https://i.ibb.co/2YHk0ZSr/Imagem-do-Whats-App-de-2025-05-18-s-20-08-52-e33ada95.jpg",
+      "https://i.ibb.co/wrywdwky/Imagem-do-Whats-App-de-2025-05-18-s-20-08-45-ad744863.jpg",
+      "https://i.ibb.co/ymKrfsj6/Imagem-do-Whats-App-de-2025-05-18-s-20-27-45-60bc6091.jpg",
+      "https://i.ibb.co/SXWBCsB8/Imagem-do-Whats-App-de-2025-05-18-s-20-18-31-31d40333.jpg",
+      "https://i.ibb.co/ksrwc8C7/IMG-6164.jpg",
+      "https://i.ibb.co/DS88hGf/IMG-6342.jpg"
     ]
   },
 ];
