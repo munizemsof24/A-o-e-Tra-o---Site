@@ -77,16 +77,6 @@ const ProductsPage: React.FC = () => {
             <p className="text-gray-500 text-xl">Nenhum produto encontrado nesta categoria no momento.</p>
           </div>
         )}
-
-        <div className="mt-24 p-12 md:p-20 glass rounded-[50px] border-accent/10 flex flex-col md:flex-row items-center gap-12 prod-reveal">
-           <div className="md:w-1/2">
-             <h2 className="font-display text-4xl font-bold mb-6">Pedidos Sob <span className="text-accent">Medida</span></h2>
-             <p className="text-gray-400 text-lg leading-relaxed">Não encontrou o que precisava? Desenvolvemos uniformes para grupos e capas de estepe personalizadas para sua equipe ou família.</p>
-           </div>
-           <div className="md:w-1/2 flex justify-end">
-             <a href="https://wa.me/5519971475706" className="bg-accent text-white font-bold py-5 px-10 rounded-2xl hover:scale-105 transition-all shadow-2xl shadow-accent/20 uppercase tracking-widest text-sm">Consultar Personalização</a>
-           </div>
-        </div>
       </div>
     </div>
   );
