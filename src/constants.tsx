@@ -92,7 +92,7 @@ export const DESTINATIONS: Destination[] = [
     id: "internacional",
     city: "Argentina & Chile", 
     description: "Expedição Internacional pelos Andes, desertos e lagos altiplânicos.", 
-    image: "https://images.unsplash.com/photo-1589118949245-7d38baf380d6?auto=format&fit=crop&q=80&w=1200",
+    image: "https://i.ibb.co/VcZLXHZL/Whats-App-Image-2026-05-07-at-14-21-54.jpg",
     itinerary: [
       { day: "Semana 1", title: "Travessia dos Andes", desc: "Paso de Jama e deserto do Atacama. Altitude e paisagens lunares." },
       { day: "Semana 2", title: "Lagos e Vulcões", desc: "Navegação pela rota dos sete lagos e subida aos pés de vulcões ativos." }
@@ -112,7 +112,7 @@ export const DESTINATIONS: Destination[] = [
     id: "caminho-fe",
     city: "Caminho da Fé", 
     description: "Conexão espiritual e trilhas de tirar o fôlego pela Serra da Mantiqueira.", 
-    image: "https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&q=80&w=1200",
+    image: "https://i.ibb.co/SDqcr9r2/IMG-8376.avif",
     itinerary: [
       { day: "Dia 1", title: "Luminosa", desc: "O trecho mais temido e belo com subidas íngremes em solo instável." },
       { day: "Dia 2", title: "Chegada em Aparecida", desc: "Descida da serra e entrada triunfal na basílica pelo caminho histórico." }
@@ -134,7 +134,7 @@ export const PRODUCTS: Product[] = [
   { id: "1", name: "Camiseta Oficial 2026", price: "R$ 80,00", image: "https://i.ibb.co/24fcfZp/Gemini-Generated-Image-6k5vmf6k5vmf6k5v.png", category: "Vestuário", link: "https://wa.me/5519971475706" },
   { id: "2", name: "Boné Ação e Tração", price: "R$ 50,00", image: "https://i.ibb.co/BV8fxv8m/Gemini-Generated-Image-yal8vkyal8vkyal8.png", category: "Acessórios", link: "https://wa.me/5519971475706" },
   { id: "3", name: "Nécessaire", price: "R$ 50,00", image: "https://i.ibb.co/jkW7ZSpD/Gemini-Generated-Image-sg7zjwsg7zjwsg7z.png", category: "Equipamentos", link: "https://wa.me/5519971475706" },
-  { id: "4", name: "Bandana Ação e Tração", price: "R$ 30,00", image: "https://i.ibb.co/cXks70BD/Gemini-Generated-Image-y9hjk8y9hjk8y9hj.png", category: "Segurança", link: "https://wa.me/5519971475706" },
+  { id: "4", name: "Bandana Ação e Tração", price: "R$ 30,00", image: "https://i.ibb.co/bRGvtqjG/IMG-7811.jpg", category: "Segurança", link: "https://wa.me/5519971475706" },
 ];
 
 export const PARTNER_DETAILS: PartnerDetail[] = [
