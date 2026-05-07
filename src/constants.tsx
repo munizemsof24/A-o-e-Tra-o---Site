@@ -13,14 +13,17 @@ export const DESTINATIONS: Destination[] = [
       { day: "Dia 2", title: "Cachoeiras e Mirantes", desc: "Exploração do platô superior visitando os principais pontos panorâmicos." }
     ],
     gallery: [
-      "https://images.unsplash.com/photo-1533558701576-23c65e0272fb?auto=format&fit=crop&q=80&w=400",
-      "https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?auto=format&fit=crop&q=80&w=400",
-      "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=400",
-      "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&q=80&w=400",
-      "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&q=80&w=400",
-      "https://images.unsplash.com/photo-1532581291347-9c39cf10a73c?auto=format&fit=crop&q=80&w=400",
-      "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&q=80&w=400",
-      "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&q=80&w=400"
+      "https://i.ibb.co/7JqV3SGj/IMG-6417.jpg",
+      "https://i.ibb.co/p6Y58LxQ/IMG-6427.jpg",
+      "https://i.ibb.co/67d9Q27J/IMG-6082.jpg",
+      "https://i.ibb.co/ch2BkqXt/IMG-20250519-WA0045.jpg",
+      "https://i.ibb.co/JWHFgvRj/Imagem-do-Whats-App-de-2025-05-18-s-20-09-06-41a21302.jpg",
+      "https://i.ibb.co/2YHk0ZSr/Imagem-do-Whats-App-de-2025-05-18-s-20-08-52-e33ada95.jpg",
+      "https://i.ibb.co/wrywdwky/Imagem-do-Whats-App-de-2025-05-18-s-20-08-45-ad744863.jpg",
+      "https://i.ibb.co/ymKrfsj6/Imagem-do-Whats-App-de-2025-05-18-s-20-27-45-60bc6091.jpg",
+      "https://i.ibb.co/SXWBCsB8/Imagem-do-Whats-App-de-2025-05-18-s-20-18-31-31d40333.jpg",
+      "https://i.ibb.co/ksrwc8C7/IMG-6164.jpg",
+      "https://i.ibb.co/DS88hGf/IMG-6342.jpg"
     ],
     shorts: [
       { id: "YEieWOxCj1c", title: "Ação 1" },
