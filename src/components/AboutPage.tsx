@@ -31,7 +31,7 @@ const AboutPage: React.FC = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mb-32 about-reveal">
           <div className="relative rounded-[40px] overflow-hidden aspect-[4/5] shadow-2xl border border-white/5 group">
              <img 
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=1200" 
+              src="https://i.ibb.co/hxJLJKDK/Whats-App-Image-2026-05-05-at-15-26-13.jpg" 
               alt="Fundador Ação e Tração" 
               className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-1000"
              />

@@ -48,14 +48,13 @@ const Footer: React.FC<FooterProps> = ({ setView }) => {
           <div>
             <h4 className="font-bold text-white mb-8 text-xl uppercase tracking-tighter">Contato</h4>
             <ul className="space-y-4 text-gray-400">
-              <li>Itapira, SP | São Pedro, SP</li>
               <li className="text-white font-bold font-mono text-lg tracking-tight">(19) 97147-5706</li>
             </ul>
           </div>
         </div>
 
         <div className="pt-12 border-t border-white/5 flex flex-col md:flex-row justify-between gap-6 items-center">
-          <p className="text-gray-500 text-sm font-medium">© 2026 Ação e Tração - Expedições Off-Road.</p>
+          <p className="text-gray-500 text-sm font-medium">© 2026 Ação e Tração - Expedições Off-Road. | CNPJ: 36.927.621/0001-62</p>
           <div className="flex gap-8 text-sm text-gray-500 font-medium">
             <a href="#" className="hover:text-white transition-colors">Políticas de Segurança</a>
           </div>

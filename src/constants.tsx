@@ -131,10 +131,10 @@ export const DESTINATIONS: Destination[] = [
 ];
 
 export const PRODUCTS: Product[] = [
-  { id: "1", name: "Camiseta Oficial 2026", price: "R$ 129,00", image: "https://i.ibb.co/24fcfZp/Gemini-Generated-Image-6k5vmf6k5vmf6k5v.png", category: "Vestuário", link: "https://wa.me/5519971475706" },
-  { id: "2", name: "Boné Ação e Tração", price: "R$ 89,00", image: "https://i.ibb.co/BV8fxv8m/Gemini-Generated-Image-yal8vkyal8vkyal8.png", category: "Acessórios", link: "https://wa.me/5519971475706" },
-  { id: "3", name: "Nécessaire", price: "R$ 249,00", image: "https://i.ibb.co/jkW7ZSpD/Gemini-Generated-Image-sg7zjwsg7zjwsg7z.png", category: "Equipamentos", link: "https://wa.me/5519971475706" },
-  { id: "4", name: "Bandana Ação e Tração", price: "R$ 189,00", image: "https://i.ibb.co/cXks70BD/Gemini-Generated-Image-y9hjk8y9hjk8y9hj.png", category: "Segurança", link: "https://wa.me/5519971475706" },
+  { id: "1", name: "Camiseta Oficial 2026", price: "R$ 80,00", image: "https://i.ibb.co/24fcfZp/Gemini-Generated-Image-6k5vmf6k5vmf6k5v.png", category: "Vestuário", link: "https://wa.me/5519971475706" },
+  { id: "2", name: "Boné Ação e Tração", price: "R$ 50,00", image: "https://i.ibb.co/BV8fxv8m/Gemini-Generated-Image-yal8vkyal8vkyal8.png", category: "Acessórios", link: "https://wa.me/5519971475706" },
+  { id: "3", name: "Nécessaire", price: "R$ 50,00", image: "https://i.ibb.co/jkW7ZSpD/Gemini-Generated-Image-sg7zjwsg7zjwsg7z.png", category: "Equipamentos", link: "https://wa.me/5519971475706" },
+  { id: "4", name: "Bandana Ação e Tração", price: "R$ 30,00", image: "https://i.ibb.co/cXks70BD/Gemini-Generated-Image-y9hjk8y9hjk8y9hj.png", category: "Segurança", link: "https://wa.me/5519971475706" },
 ];
 
 export const PARTNER_DETAILS: PartnerDetail[] = [
