@@ -91,22 +91,6 @@ const DestinationDetailPage: React.FC<DestinationDetailPageProps> = ({ destinati
           </div>
         )}
 
-        {/* Novo Bloco: Parceiros da Expedição */}
-        <div className="mb-24 dest-detail-reveal">
-          <div className="text-center mb-8">
-            <p className="text-gray-500 text-xs font-bold uppercase tracking-[0.3em]">Equipado e Apoiado por</p>
-          </div>
-          <div className="glass py-10 px-6 rounded-[32px] border-white/5 overflow-hidden">
-             <div className="flex flex-wrap justify-center items-center gap-x-12 gap-y-8 opacity-40 hover:opacity-100 transition-opacity duration-500">
-               {PARTNERS.map((partner, idx) => (
-                 <span key={idx} className="font-display font-black text-xl md:text-2xl text-white whitespace-nowrap tracking-tighter hover:text-accent cursor-default transition-colors">
-                   {partner}
-                 </span>
-               ))}
-             </div>
-          </div>
-        </div>
-
         {/* Bloco 4: Galeria (Aumentada e com Layout mais denso) */}
         {dest.gallery && (
           <div className="mb-24 dest-detail-reveal">

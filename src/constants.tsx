@@ -80,14 +80,17 @@ export const DESTINATIONS: Destination[] = [
       { day: "Dia 2", title: "Rota dos Queijos", desc: "Off-road leve visitando produtores artesanais e a parte alta da serra." }
     ],
     gallery: [
-      "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&q=80&w=400",
-      "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&q=80&w=400",
-      "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&q=80&w=400",
-      "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&q=80&w=400",
-      "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&q=80&w=400",
-      "https://images.unsplash.com/photo-1472396961695-1ad22a07c33c?auto=format&fit=crop&q=80&w=400",
-      "https://images.unsplash.com/photo-1518495973542-4542c06a5843?auto=format&fit=crop&q=80&w=400",
-      "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&q=80&w=400"
+      "https://i.ibb.co/7JqV3SGj/IMG-6417.jpg",
+      "https://i.ibb.co/p6Y58LxQ/IMG-6427.jpg",
+      "https://i.ibb.co/67d9Q27J/IMG-6082.jpg",
+      "https://i.ibb.co/ch2BkqXt/IMG-20250519-WA0045.jpg",
+      "https://i.ibb.co/JWHFgvRj/Imagem-do-Whats-App-de-2025-05-18-s-20-09-06-41a21302.jpg",
+      "https://i.ibb.co/2YHk0ZSr/Imagem-do-Whats-App-de-2025-05-18-s-20-08-52-e33ada95.jpg",
+      "https://i.ibb.co/wrywdwky/Imagem-do-Whats-App-de-2025-05-18-s-20-08-45-ad744863.jpg",
+      "https://i.ibb.co/ymKrfsj6/Imagem-do-Whats-App-de-2025-05-18-s-20-27-45-60bc6091.jpg",
+      "https://i.ibb.co/SXWBCsB8/Imagem-do-Whats-App-de-2025-05-18-s-20-18-31-31d40333.jpg",
+      "https://i.ibb.co/ksrwc8C7/IMG-6164.jpg",
+      "https://i.ibb.co/DS88hGf/IMG-6342.jpg"
     ]
   },
   { 
