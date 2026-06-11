@@ -7,7 +7,7 @@ export const DESTINATIONS: Destination[] = [
     city: "São Pedro - SP", 
     description: "Famosa Serra do Itaqueri com trilhas técnicas e vistas de tirar o fôlego.", 
     image: "https://i.ibb.co/ShvkHDK/DJI-20250726171110-0555-D.jpg",
-    videoUrl: "https://www.youtube.com/embed/OYUYbBe9ngI",
+    videoUrl: "https://www.youtube.com/embed/OYUYbBe9ngI?start=3",
     itinerary: [
       { day: "Dia 1", title: "Subida da Serra", desc: "Abordagem técnica da face sul com obstáculos de erosão e pedras soltas." },
       { day: "Dia 2", title: "Cachoeiras e Mirantes", desc: "Exploração do platô superior visitando os principais pontos panorâmicos." }
@@ -37,20 +37,25 @@ export const DESTINATIONS: Destination[] = [
     city: "Analândia - SP", 
     description: "Cuscuzeiro e Morro do Camelo em paisagens únicas do interior paulista.", 
     image: "https://i.ibb.co/C31HHgWS/DJI-20250830173929-0368-D.jpg",
-    videoUrl: "https://www.youtube.com/embed/OYUYbBe9ngI",
+    videoUrl: "https://www.youtube.com/embed/wep0DYb7k1g",
     itinerary: [
       { day: "Dia 1", title: "Circuito das Areias", desc: "Navegação em trechos arenosos ao redor do Morro do Cuscuzeiro." },
       { day: "Dia 2", title: "Trilha do Camelo", desc: "Acesso a áreas exclusivas de fazendas com visual para o Morro do Camelo." }
     ],
     gallery: [
-      "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&q=80&w=400",
-      "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&q=80&w=400",
-      "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?auto=format&fit=crop&q=80&w=400",
-      "https://images.unsplash.com/photo-1516483642144-7f100ef1ad88?auto=format&fit=crop&q=80&w=400",
-      "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&q=80&w=400",
-      "https://images.unsplash.com/photo-1433086466336-76c061706a1d?auto=format&fit=crop&q=80&w=400",
-      "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&q=80&w=400",
-      "https://images.unsplash.com/photo-1472396961695-1ad22a07c33c?auto=format&fit=crop&q=80&w=400"
+      "https://i.ibb.co/3mWNY55R/IMG-1408.jpg",
+      "https://i.ibb.co/WWq4NQSM/IMG-1442.jpg",
+      "https://i.ibb.co/pvKwqFbL/IMG-1605.jpg",
+      "https://i.ibb.co/67C4b9zR/IMG-1702.jpg",
+      "https://i.ibb.co/76t6YBn/IMG-1737.jpg",
+      "https://i.ibb.co/kfvzQ4T/IMG-2459.jpg",
+      "https://i.ibb.co/xtcYYPT9/IMG-2496.jpg",
+      "https://i.ibb.co/8LXxsZ8w/IMG-2605.jpg"
+    ],
+    shorts: [
+      { id: "VcUeWgErd28", title: "Ação 1" },
+      { id: "A_TV4VhArcw", title: "Ação 2" },
+      { id: "3c6RuxI0nFY", title: "Ação 3" }
     ]
   },
   { 
@@ -121,7 +126,7 @@ export const DESTINATIONS: Destination[] = [
     city: "Caminho da Fé", 
     description: "Conexão espiritual e trilhas de tirar o fôlego pela Serra da Mantiqueira.", 
     image: "https://i.ibb.co/SDqcr9r2/IMG-8376.avif",
-    videoUrl: "https://www.youtube.com/embed/OYUYbBe9ngI",
+    videoUrl: "https://www.youtube.com/embed/wep0DYb7k1g",
     itinerary: [
       { day: "Dia 1", title: "Luminosa", desc: "O trecho mais temido e belo com subidas íngremes em solo instável." },
       { day: "Dia 2", title: "Chegada em Aparecida", desc: "Descida da serra e entrada triunfal na basílica pelo caminho histórico." }

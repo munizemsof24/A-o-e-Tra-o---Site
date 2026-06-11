@@ -120,7 +120,7 @@ const DestinationDetailPage: React.FC<DestinationDetailPageProps> = ({ destinati
               <h2 className="font-display text-4xl md:text-5xl font-bold mb-4">Destaques da <span className="text-accent">Trilha</span></h2>
               <p className="text-gray-400">Momentos de pura adrenalina capturados em vídeo.</p>
             </div>
-            <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-8">
+            <div className={`grid grid-cols-2 gap-4 md:gap-8 ${dest.shorts.length === 3 ? 'md:grid-cols-3 lg:grid-cols-3' : 'lg:grid-cols-4'}`}>
               {dest.shorts.map((v, i) => (
                 <div key={i} className="aspect-[9/16] rounded-3xl overflow-hidden glass shadow-xl relative group border-none">
                   <iframe 
