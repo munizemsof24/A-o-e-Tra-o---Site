@@ -63,19 +63,25 @@ export const DESTINATIONS: Destination[] = [
     city: "Jaguariaíva - PR", 
     description: "Canyons, cachoeiras e lagos deslumbrantes no oitavo maior canyon do mundo.", 
     image: "https://i.ibb.co/0jQk3kRP/DJI-20250208143739-0289-D.jpg",
+    videoUrl: "https://www.youtube.com/embed/5d654n9Bn2M",
     itinerary: [
       { day: "Dia 1", title: "Entrada no Canyon", desc: "Navegação pelo leito de rios e acesso às fendas monumentais." },
       { day: "Dia 2", title: "Parque Estadual", desc: "Trilhas por dentro da mata preservada com paradas em quedas d'água." }
     ],
     gallery: [
-      "https://images.unsplash.com/photo-1433086466336-76c061706a1d?auto=format&fit=crop&q=80&w=400",
-      "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&q=80&w=400",
-      "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=400",
-      "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&q=80&w=400",
-      "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&q=80&w=400",
-      "https://images.unsplash.com/photo-1472396961695-1ad22a07c33c?auto=format&fit=crop&q=80&w=400",
-      "https://images.unsplash.com/photo-1518495973542-4542c06a5843?auto=format&fit=crop&q=80&w=400",
-      "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&q=80&w=400"
+      "https://i.ibb.co/k220m5sm/IMG-3346.jpg",
+      "https://i.ibb.co/67tBRm1p/IMG-3409.jpg",
+      "https://i.ibb.co/Nd5Z9Tv1/IMG-3800.jpg",
+      "https://i.ibb.co/4nQqBSbj/IMG-3829.jpg",
+      "https://i.ibb.co/Z6PG2288/IMG-3890.jpg",
+      "https://i.ibb.co/Qjx9Yrpz/IMG-3908.jpg",
+      "https://i.ibb.co/SgqGSPG/IMG-3912.jpg",
+      "https://i.ibb.co/7xbTCMH6/IMG-3919.jpg"
+    ],
+    shorts: [
+      { id: "DwUOcl2GSPA", title: "Ação 1" },
+      { id: "eHI7nJNof7Y", title: "Ação 2" },
+      { id: "NUcNx36RMew", title: "Ação 3" }
     ]
   },
   { 
@@ -88,17 +94,21 @@ export const DESTINATIONS: Destination[] = [
       { day: "Dia 2", title: "Rota dos Queijos", desc: "Off-road leve visitando produtores artesanais e a parte alta da serra." }
     ],
     gallery: [
-      "https://i.ibb.co/7JqV3SGj/IMG-6417.jpg",
-      "https://i.ibb.co/p6Y58LxQ/IMG-6427.jpg",
-      "https://i.ibb.co/67d9Q27J/IMG-6082.jpg",
-      "https://i.ibb.co/ch2BkqXt/IMG-20250519-WA0045.jpg",
-      "https://i.ibb.co/JWHFgvRj/Imagem-do-Whats-App-de-2025-05-18-s-20-09-06-41a21302.jpg",
-      "https://i.ibb.co/2YHk0ZSr/Imagem-do-Whats-App-de-2025-05-18-s-20-08-52-e33ada95.jpg",
-      "https://i.ibb.co/wrywdwky/Imagem-do-Whats-App-de-2025-05-18-s-20-08-45-ad744863.jpg",
-      "https://i.ibb.co/ymKrfsj6/Imagem-do-Whats-App-de-2025-05-18-s-20-27-45-60bc6091.jpg",
-      "https://i.ibb.co/SXWBCsB8/Imagem-do-Whats-App-de-2025-05-18-s-20-18-31-31d40333.jpg",
-      "https://i.ibb.co/ksrwc8C7/IMG-6164.jpg",
-      "https://i.ibb.co/DS88hGf/IMG-6342.jpg"
+      "https://i.ibb.co/VW4FRxXr/IMG-7837.jpg",
+      "https://i.ibb.co/rGxvjwYz/IMG-7832.jpg",
+      "https://i.ibb.co/m559kkWZ/IMG-7766.jpg",
+      "https://i.ibb.co/B5RZcDMV/IMG-7573.jpg",
+      "https://i.ibb.co/pvwXdSwk/IMG-7459.jpg",
+      "https://i.ibb.co/S4b7yyvT/IMG-7367.jpg",
+      "https://i.ibb.co/YBXj08Kb/IMG-7193.jpg",
+      "https://i.ibb.co/qMqTT2yF/IMG-7063.jpg",
+      "https://i.ibb.co/wF3f736p/IMG-7011.jpg",
+      "https://i.ibb.co/LdYhMYh3/DJI-20260502102425-0095-D.jpg"
+    ],
+    shorts: [
+      { id: "KIPfuOJEhbo", title: "Ação 1" },
+      { id: "Vni2vfT_GoQ", title: "Ação 2" },
+      { id: "kk_eWSKIsg4", title: "Ação 3" }
     ]
   },
   { 
@@ -119,6 +129,11 @@ export const DESTINATIONS: Destination[] = [
       "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&q=80&w=400",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&q=80&w=400",
       "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&q=80&w=400"
+    ],
+    shorts: [
+      { id: "Y8jXifT0vUQ", title: "Ação 1" },
+      { id: "naclBHd5Qq0", title: "Ação 2" },
+      { id: "bR82m-EEibM", title: "Ação 3" }
     ]
   },
   { 
@@ -132,18 +147,14 @@ export const DESTINATIONS: Destination[] = [
       { day: "Dia 2", title: "Chegada em Aparecida", desc: "Descida da serra e entrada triunfal na basílica pelo caminho histórico." }
     ],
     gallery: [
-      "https://i.ibb.co/0y8G0Hb8/IMG-20250518-WA0031.jpg",
-      "https://i.ibb.co/7JqV3SGj/IMG-6417.jpg",
-      "https://i.ibb.co/p6Y58LxQ/IMG-6427.jpg",
-      "https://i.ibb.co/67d9Q27J/IMG-6082.jpg",
-      "https://i.ibb.co/ch2BkqXt/IMG-20250519-WA0045.jpg",
-      "https://i.ibb.co/JWHFgvRj/Imagem-do-Whats-App-de-2025-05-18-s-20-09-06-41a21302.jpg",
-      "https://i.ibb.co/2YHk0ZSr/Imagem-do-Whats-App-de-2025-05-18-s-20-08-52-e33ada95.jpg",
-      "https://i.ibb.co/wrywdwky/Imagem-do-Whats-App-de-2025-05-18-s-20-08-45-ad744863.jpg",
-      "https://i.ibb.co/ymKrfsj6/Imagem-do-Whats-App-de-2025-05-18-s-20-27-45-60bc6091.jpg",
-      "https://i.ibb.co/SXWBCsB8/Imagem-do-Whats-App-de-2025-05-18-s-20-18-31-31d40333.jpg",
-      "https://i.ibb.co/ksrwc8C7/IMG-6164.jpg",
-      "https://i.ibb.co/DS88hGf/IMG-6342.jpg"
+      "https://i.ibb.co/4Z9FTB49/IMG-8115.jpg",
+      "https://i.ibb.co/zHnNS6V8/IMG-8376.avif",
+      "https://i.ibb.co/33S53Ps/IMG-8768.avif",
+      "https://i.ibb.co/Jw9w4chg/IMG-8885.avif",
+      "https://i.ibb.co/27dqfHBz/IMG-8797.avif",
+      "https://i.ibb.co/tpncn94B/IMG-8599.avif",
+      "https://i.ibb.co/Z66Ks8K3/IMG-8765.avif",
+      "https://i.ibb.co/qKrBzmc/IMG-8550.avif"
     ]
   },
 ];
