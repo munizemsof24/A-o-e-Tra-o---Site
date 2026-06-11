@@ -147,7 +147,7 @@ export const PRODUCTS: Product[] = [
   { id: "1", name: "Camiseta Oficial 2026", price: "R$ 80,00", image: "https://i.ibb.co/24fcfZp/Gemini-Generated-Image-6k5vmf6k5vmf6k5v.png", category: "Vestuário", link: "https://wa.me/5519971475706" },
   { id: "2", name: "Boné Ação e Tração", price: "R$ 50,00", image: "https://i.ibb.co/BV8fxv8m/Gemini-Generated-Image-yal8vkyal8vkyal8.png", category: "Acessórios", link: "https://wa.me/5519971475706" },
   { id: "3", name: "Nécessaire", price: "R$ 50,00", image: "https://i.ibb.co/jkW7ZSpD/Gemini-Generated-Image-sg7zjwsg7zjwsg7z.png", category: "Equipamentos", link: "https://wa.me/5519971475706" },
-  { id: "4", name: "Bandana Ação e Tração", price: "R$ 30,00", image: "https://i.ibb.co/bRGvtqjG/IMG-7811.jpg", category: "Segurança", link: "https://wa.me/5519971475706" },
+  { id: "4", name: "Bandana Ação e Tração", price: "R$ 30,00", image: "https://i.ibb.co/Gfdq1t11/Gemini-Generated-Image.png", category: "Segurança", link: "https://wa.me/5519971475706" },
 ];
 
 export const PARTNER_DETAILS: PartnerDetail[] = [
@@ -179,31 +179,43 @@ export const PARTNER_DETAILS: PartnerDetail[] = [
 
 export const CALENDAR: CalendarEvent[] = [
   {
-    month: "Março",
+    month: "Agosto",
     events: [
-      { location: "Itapira", dates: "14 e 15" },
-      { location: "Jaguariaíva", dates: "28 e 29" }
+      { location: "Curso Iniciantes 4x4", dates: "Dia 01 (Sábado)" },
+      { location: "Serras Altas da Mantiqueira", dates: "Dias 08 e 09" },
+      { location: "Itapira", dates: "Dias 15 e 16" },
+      { location: "São Pedro", dates: "Dias 22 e 23" }
     ]
   },
   {
-    month: "Abril",
+    month: "Setembro",
     events: [
-      { location: "Serra da Canastra", dates: "03, 04, 05" },
-      { location: "São Pedro", dates: "25 e 26" }
+      { location: "Caminho da Fé", dates: "Dias 05, 06 e 07" },
+      { location: "Serras Altas da Mantiqueira", dates: "Dias 26 e 27" }
     ]
   },
   {
-    month: "Maio",
+    month: "Outubro",
     events: [
-      { location: "Serra da Canastra", dates: "Dias 01, 02, 03" },
-      { location: "Analândia", dates: "Dias 23 e 24" }
+      { location: "Jalapão", dates: "De 07 à 14" },
+      { location: "São Pedro", dates: "Dias 17 e 18" },
+      { location: "Serras Altas da Mantiqueira", dates: "Dias 24 e 25" },
+      { location: "Jaguariaíva", dates: "Dias 31, 01 e 02" }
     ]
   },
   {
-    month: "Junho",
+    month: "Novembro",
     events: [
-      { location: "São Pedro", dates: "Dias 06 e 07" },
-      { location: "Curso Iniciantes 4x4", dates: "Dia 20 (Sábado)" }
+      { location: "São Pedro", dates: "Dias 07 e 08" },
+      { location: "Analândia", dates: "Dias 14 e 15" },
+      { location: "Serra da Canastra", dates: "Dias 20, 21 e 22" },
+      { location: "Curso Iniciantes 4x4", dates: "Dia 28 (Sábado)" }
+    ]
+  },
+  {
+    month: "Dezembro",
+    events: [
+      { location: "São Pedro", dates: "Dias 05 e 06" }
     ]
   }
 ];

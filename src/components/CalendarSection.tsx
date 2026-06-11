@@ -19,7 +19,7 @@ const CalendarSection: React.FC = () => {
                 <div key={eIdx} className="relative pl-6 border-l border-white/10 group-hover:border-accent/30 transition-colors">
                   <div className="absolute top-0 left-[-4px] w-2 h-2 rounded-full bg-white/20 group-hover:bg-accent transition-colors" />
                   <p className="text-white font-bold text-lg leading-tight mb-1">{event.location}</p>
-                  <p className="text-gray-400 text-sm">Dias {event.dates}</p>
+                  <p className="text-gray-400 text-sm">{event.dates}</p>
                 </div>
               ))}
             </div>
