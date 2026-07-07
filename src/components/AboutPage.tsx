@@ -1,7 +1,6 @@
 
 import React, { useEffect } from 'react';
 import { gsap } from 'gsap';
-import { PARTNER_DETAILS } from '@/constants';
 
 const AboutPage: React.FC = () => {
   useEffect(() => {
@@ -72,36 +71,6 @@ const AboutPage: React.FC = () => {
               <li>Expedição Buraco do Camel</li>
               <li>Expedições internacionais Chile, Argentina e Panamá.</li>
             </ul>
-          </div>
-        </div>
-
-        {/* Partners Section */}
-        <div className="mb-24 about-reveal">
-          <div className="text-center mb-16">
-            <h2 className="font-display text-4xl md:text-6xl font-bold mb-4">Nossos <span className="text-accent">Parceiros</span></h2>
-            <p className="text-gray-400 text-xl">Marcas que compartilham nossa paixão por excelência e aventura.</p>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {PARTNER_DETAILS.map((partner, idx) => (
-              <div key={idx} className="glass p-10 rounded-[40px] border-none flex flex-col items-center text-center group hover:bg-white/[0.05] transition-all">
-                <div className="h-24 flex items-center justify-center mb-8">
-                  <img src={partner.logo} alt={partner.name} className="max-h-full max-w-[200px] object-contain brightness-0 invert opacity-50 group-hover:opacity-100 transition-all" />
-                </div>
-                <h3 className="font-display text-2xl font-bold mb-4">{partner.name}</h3>
-                <p className="text-gray-400 mb-8 max-w-sm leading-relaxed">
-                  {partner.description}
-                </p>
-                <a 
-                  href={partner.contactLink}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="mt-auto bg-white/5 hover:bg-accent text-white font-bold py-4 px-10 rounded-2xl transition-all w-full md:w-auto"
-                >
-                  Falar com o parceiro
-                </a>
-              </div>
-            ))}
           </div>
         </div>
 
